@@ -13,12 +13,10 @@ public class Ejercicio9 {
         areacua = ingreso.nextDouble();
         System.out.print("DAME EL AREA DEL TRIANGULO: ");
         areatri = ingreso.nextDouble();
-        System.out.println("DAME EL AREA DEL RECTANGULO");
+        System.out.print("DAME EL AREA DEL RECTANGULO: ");
         arearec = ingreso.nextDouble();
-        areatotal = areacua + (Areatri * 3)+ arearec;
-        soutv
-             
-        
-        
+        areatotal = areacua + (areatri * 3)+ arearec;
+        System.out.println("AREA TOTAL = " + areatotal);
+      
     }
 }

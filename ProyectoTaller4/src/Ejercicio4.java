@@ -12,7 +12,5 @@ public class Ejercicio4 {
         //PROCESAMIENTO DE DATOS
         valorPlanilla = costoMinuto * cantidadMinutos;
         System.out.println("VALOR DE LA PLANILLA ES = " + valorPlanilla);
-        
-        
     }
 }
